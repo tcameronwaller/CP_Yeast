@@ -1,4 +1,6 @@
 # CP_Yeast
+https://github.com/tcameronwaller/cp_yeast
+
 Pipelines in CellProfiler for processing fluorescence microscopic images of yeast
 
 I prepared the program pipeline for "yeast_cell_mito_2-flour.cpproj" in CellProfiler (http://cellprofiler.org/). CellProfiler has multiple tutorials (http://cellprofiler.org/tutorials/) to help users to learn its basic operation. CellProfiler also has a manual (http://cellprofiler.org/manuals/) with information in more detail. CellProfiler provides many types of modules that give basic functionality for processing images. It also provides a Graphical User Interface (GUI) to enable the user to use these modules easily. The user sets parameters to customize these modules and then assembles multiple modules together to form a complete program or pipeline. CellProfiler's manual (http://cellprofiler.org/manuals/) provides thorough information on the function of each module. This information is important for customizing modules and assembling new program pipelines.
