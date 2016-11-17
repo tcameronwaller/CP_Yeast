@@ -52,3 +52,7 @@ Measure images by regions of interest. The program measures the areas of regions
 Export measurements in multiple tables with tab-delimiters.
 
 ----------
+
+# Instructions
+
+It is necessary for the user to set the default directory, "Default Input Folder" in CellProfiler before running the pipeline. The pipeline will create multiple sub-directories within this master directory.
