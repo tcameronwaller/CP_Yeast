@@ -176,7 +176,7 @@ Relevant information comes from the tables for _"Cellular Regions With Mitochond
   **Mean Intensity Distribution =** sum of mean intensities of region / count of regions  
   **Standard Error of Correlation =** https://en.wikipedia.org/wiki/Standard_error  
 
-### 3) Intensity Correlation
+### 4) Intensity Correlation
 
 Relevant information comes from the table for _"Cellular Regions"_. Determine the rows of the table that correspond to each experiment and experimental group. Ideally this information is clear from the _"Metadata_FileLocation"_ column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
 
