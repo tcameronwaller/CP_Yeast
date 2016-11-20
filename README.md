@@ -4,7 +4,7 @@ Repository address: https://github.com/tcameronwaller/cp_yeast
 
 Pipelines in CellProfiler for processing fluorescence microscopic images of yeast
 
-I prepared the program pipeline for "yeast_cell_mito_2-flour.cppipe" in CellProfiler (http://cellprofiler.org/). CellProfiler has multiple tutorials (http://cellprofiler.org/tutorials/) to help users to learn its basic operation. CellProfiler also has a manual (http://cellprofiler.org/manuals/) with information in more detail. CellProfiler provides many types of modules that give basic functionality for processing images. It also provides a Graphical User Interface (GUI) to enable the user to use these modules easily. The user sets parameters to customize these modules and then assembles multiple modules together to form a complete program or pipeline. CellProfiler's manual (http://cellprofiler.org/manuals/) provides thorough information on the function of each module. This information is important for customizing modules and assembling new program pipelines.
+I prepared the program pipeline for "yeast_cell_mito_2-flour.cppipe" in [CellProfiler](http://cellprofiler.org/). CellProfiler has multiple [tutorials](http://cellprofiler.org/tutorials/) to help users to learn its basic operation. CellProfiler also has a [manual](http://cellprofiler.org/manuals/) with information in more detail. CellProfiler provides many types of modules that give basic functionality for processing images. It also provides a Graphical User Interface (GUI) to enable the user to use these modules easily. The user sets parameters to customize these modules and then assembles multiple modules together to form a complete program or pipeline. CellProfiler's [manual](http://cellprofiler.org/manuals/) provides thorough information on the function of each module. This information is important for customizing modules and assembling new program pipelines.
 
 ----------
 
@@ -88,17 +88,17 @@ These tables contain multiple types of measurements from multiple types of regio
 
 ### 1) Cellular Regions
 
-The pipeline names cellular regions _"Object_Cell_Filter_Area_Intensity_MRK_TAR"_. Measurements corresponding to these cellular regions are in table _"Object_Cell_Filter_Area_Intensity_MRK_TAR.txt"_. Here is a description of relevant information in this table.
+The pipeline names cellular regions **_"Object_Cell_Filter_Area_Intensity_MRK_TAR"_**. Measurements corresponding to these cellular regions are in table **_"Object_Cell_Filter_Area_Intensity_MRK_TAR.txt"_**. Here is a description of relevant information in this table.
 
    **ImageNumber:** The sequential number of the image in the original set of images.  
    **ObjectNumber:** The sequential number of the region of interest within a specific image.  
    **Metadata_FileLocation:** The directory path and file name of the original image.  
    **AreaShape_Area:** The area, in pixels, of the region of interest, in this case cellular regions.  
    **Correlation_Correlation_MRK_TAR:** The pixel-by-pixel correlation between intensities of the MRK and TAR channels within cellular regions.  
-   **Intensity_IntegratedIntensity_MRK:** The total intensity, or sum of intensities in the MRK channel for all pixels within cellular regions.  
-   **Intensity_IntegratedIntensity_TAR:** The total intensity, or sum of intensities in the TAR channel for all pixels within cellular regions.  
-   **Intensity_MeanIntensity_MRK:** The mean intensity, or total intensity of the MRK Channel divided by the number of pixels within cellular regions.  
-   **Intensity_MeanIntensity_TAR:** The mean intensity, or total intensity of the TAR Channel divided by the number of pixels within cellular regions.  
+   **Intensity_IntegratedIntensity_MRK:** The total intensity, or sum of intensities in the **_MRK_** channel for all pixels within cellular regions.  
+   **Intensity_IntegratedIntensity_TAR:** The total intensity, or sum of intensities in the **_TAR_** channel for all pixels within cellular regions.  
+   **Intensity_MeanIntensity_MRK:** The mean intensity, or total intensity of the **_MRK_** channel divided by the number of pixels within cellular regions.  
+   **Intensity_MeanIntensity_TAR:** The mean intensity, or total intensity of the **_TAR_** channel divided by the number of pixels within cellular regions.  
 
 ### 2) Cellular Regions With Mitochondria
 
@@ -108,10 +108,10 @@ The pipeline names cellular regions with mitochondria _"Object_Cell_Filter_Area_
    **ObjectNumber:** The sequential number of the region of interest within a specific image.  
    **Metadata_FileLocation:** The directory path and file name of the original image.  
    **AreaShape_Area:** The area, in pixels, of the region of interest, in this case cellular regions.  
-   **Intensity_IntegratedIntensity_MRK:** The total intensity, or sum of intensities in the MRK channel for all pixels within cellular regions.  
-   **Intensity_IntegratedIntensity_TAR:** The total intensity, or sum of intensities in the TAR channel for all pixels within cellular regions.  
-   **Intensity_MeanIntensity_MRK:** The mean intensity, or total intensity of the MRK Channel divided by the number of pixels within cellular regions.  
-   **Intensity_MeanIntensity_TAR:** The mean intensity, or total intensity of the TAR Channel divided by the number of pixels within cellular regions.  
+   **Intensity_IntegratedIntensity_MRK:** The total intensity, or sum of intensities in the **_MRK_** channel for all pixels within cellular regions.  
+   **Intensity_IntegratedIntensity_TAR:** The total intensity, or sum of intensities in the **_TAR_** channel for all pixels within cellular regions.  
+   **Intensity_MeanIntensity_MRK:** The mean intensity, or total intensity of the **_MRK_** Channel divided by the number of pixels within cellular regions.  
+   **Intensity_MeanIntensity_TAR:** The mean intensity, or total intensity of the **_TAR_** Channel divided by the number of pixels within cellular regions.  
 
 ### 3) Mitochondrial Regions
 
@@ -121,10 +121,10 @@ The pipeline names mitochondrial regions _"Object_Mitochondrion_Cell_Filter_Area
   **ObjectNumber:** The sequential number of the region of interest within a specific image.  
   **Metadata_FileLocation:** The directory path and file name of the original image.  
   **AreaShape_Area:** The area, in pixels, of the region of interest, in this case cellular regions.  
-  **Intensity_IntegratedIntensity_MRK:** The total intensity, or sum of intensities in the MRK channel for all pixels within mitochondrial regions.  
-  **Intensity_IntegratedIntensity_TAR:** The total intensity, or sum of intensities in the TAR channel for all pixels within mitochondrial regions.  
-  **Intensity_MeanIntensity_MRK:** The mean intensity, or total intensity of the MRK Channel divided by the number of pixels within mitochondrial regions.  
-  **Intensity_MeanIntensity_TAR:** The mean intensity, or total intensity of the TAR Channel divided by the number of pixels within mitochondrial regions.  
+  **Intensity_IntegratedIntensity_MRK:** The total intensity, or sum of intensities in the **_MRK_** channel for all pixels within mitochondrial regions.  
+  **Intensity_IntegratedIntensity_TAR:** The total intensity, or sum of intensities in the **_TAR_** channel for all pixels within mitochondrial regions.  
+  **Intensity_MeanIntensity_MRK:** The mean intensity, or total intensity of the **_MRK_** Channel divided by the number of pixels within mitochondrial regions.  
+  **Intensity_MeanIntensity_TAR:** The mean intensity, or total intensity of the **_TAR_** Channel divided by the number of pixels within mitochondrial regions.  
 
 ----------
 
@@ -134,7 +134,7 @@ Multiple types of analyses are possible with the measurements from this pipeline
 
 ### 1) Cellular Intensity
 
-Relevant information comes from the table for _"Cellular Regions"_. Determine the rows of the table that correspond to each experiment and experimental group. Ideally this information is clear from the _"Metadata_FileLocation"_ column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
+Relevant information comes from the table for **_"Cellular Regions"_**. Determine the rows of the table that correspond to each experiment and experimental group. Ideally this information is clear from the **_"Metadata_FileLocation"_** column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
 
 This analysis determines the mean of mean intensities of cellular regions. The reason is to account for variability in the areas of different cellular regions.
 
@@ -146,7 +146,7 @@ This analysis determines the mean of mean intensities of cellular regions. The r
 
 ### 2) Subcellular Region-Specific Intensity
 
-Relevant information comes from the tables for _"Cellular Regions With Mitochondria"_ and _"Mitochondrial Regions"_. Determine the rows of the tables that correspond to each experiment and experimental group. Ideally this information is clear from the _"Metadata_FileLocation"_ column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
+Relevant information comes from the tables for **_"Cellular Regions With Mitochondria"_** and **_"Mitochondrial Regions"_**. Determine the rows of the tables that correspond to each experiment and experimental group. Ideally this information is clear from the **_"Metadata_FileLocation"_** column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
 
 This analysis determines the mean of mean intensities of regions. The reason is to account for variability in the areas of different regions.
 
@@ -156,8 +156,8 @@ This analysis determines the mean of mean intensities of regions. The reason is 
   **Area of Cellular Region =** area value from the table for cellular regions  
   **Area of Mitochondrial Region =** area value from the table for mitochondrial regions  
   **Area of Cytosolic (Non-Mitochondrial) Region =** cellular area - mitochondrial area  
-  **Total Intensity of Cellular Region =** total intensity value of target channel from the table for cellular regions  
-  **Total Intensity of Mitochondrial Region =** total intensity value of target channel from the table for mitochondrial regions  
+  **Total Intensity of Cellular Region =** total intensity value of **_TAR_** channel from the table for cellular regions  
+  **Total Intensity of Mitochondrial Region =** total intensity value of **_TAR_** channel from the table for mitochondrial regions  
   **Total Intensity of Cytosolic (Non-Mitochondrial) Region =** cellular total intensity - mitochondrial total intensity  
   **Mean Intensity of Region (Cellular, Mitochondrial, or Cytosolic) =** region total intensity / region area  
   **Mean of Mean Intensity of Region (Cellular, Mitochondrial, or Cytosolic) =** sum of mean intensities of region / count of regions  
@@ -165,24 +165,23 @@ This analysis determines the mean of mean intensities of regions. The reason is 
 
 ### 3) Mitochondrial Distribution
 
-Relevant information comes from the tables for _"Cellular Regions With Mitochondria"_ and _"Mitochondrial Regions"_. Determine the rows of the tables that correspond to each experiment and experimental group. Ideally this information is clear from the _"Metadata_FileLocation"_ column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
+Relevant information comes from the tables for **_"Cellular Regions With Mitochondria"_** and **_"Mitochondrial Regions"_**. Determine the rows of the tables that correspond to each experiment and experimental group. Ideally this information is clear from the **_"Metadata_FileLocation"_** column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
 
 #### Relevant Values
 
   **Count of Cellular Regions =** count of regions (rows in table)  
-  **Total Intensity of Cellular Region =** total intensity value of target channel from the table for cellular regions  
-  **Total Intensity of Mitochondrial Region =** total intensity value of target channel from the table for mitochondrial regions  
+  **Total Intensity of Cellular Region =** total intensity value of **_TAR_** channel from the table for cellular regions  
+  **Total Intensity of Mitochondrial Region =** total intensity value of **_TAR_** channel from the table for mitochondrial regions  
   **Intensity Distribution =** mitochondrial intensity / cellular intensity  
   **Mean Intensity Distribution =** sum of mean intensities of region / count of regions  
   **Standard Error of Correlation =** https://en.wikipedia.org/wiki/Standard_error  
 
 ### 4) Intensity Correlation
 
-Relevant information comes from the table for _"Cellular Regions"_. Determine the rows of the table that correspond to each experiment and experimental group. Ideally this information is clear from the _"Metadata_FileLocation"_ column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
+Relevant information comes from the table for **_"Cellular Regions"_**. Determine the rows of the table that correspond to each experiment and experimental group. Ideally this information is clear from the **_"Metadata_FileLocation"_** column as this column includes the directory path and file name of each image. Each experimental group will probably consist of multiple images. Determine relevant values separately for each experimental group.
 
 #### Relevant Values
 
   **Count of Cellular Regions =** count of regions (rows in table)  
   **Mean of Correlation =** sum of correlation values / count of regions  
   **Standard Error of Correlation =** https://en.wikipedia.org/wiki/Standard_error  
-
