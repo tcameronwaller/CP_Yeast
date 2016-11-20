@@ -3625,7 +3625,7 @@ SaveImages:[module_num:199|svn_version:\'Unknown\'|variable_revision_number:11|s
     Append a suffix to the image file name?:Yes
     Text to append to the image name:_MRK_obj_mito_outline
     Saved file format:tif
-    Output file location:Default Output Folder sub-folder\x7CProcess\\\\\\\\Segmentation_Mitochondria
+    Output file location:Default Output Folder sub-folder\x7CProcess\\\\\\\\Segmentation_Mitochondrion
     Image bit depth:16-bit integer
     Overwrite existing files without warning?:Yes
     When to save:Every cycle
@@ -3731,7 +3731,7 @@ SaveImages:[module_num:207|svn_version:\'Unknown\'|variable_revision_number:11|s
     Append a suffix to the image file name?:Yes
     Text to append to the image name:_obj_mito_cell_filtr_area_int_MRK_TAR_child_mito
     Saved file format:tif
-    Output file location:Default Output Folder sub-folder\x7CProcess\\\\\\\\Segmentation_Mitochondria
+    Output file location:Default Output Folder sub-folder\x7CProcess\\\\\\\\Segmentation_Mitochondrion
     Image bit depth:16-bit integer
     Overwrite existing files without warning?:Yes
     When to save:Every cycle
@@ -3755,7 +3755,7 @@ SaveImages:[module_num:208|svn_version:\'Unknown\'|variable_revision_number:11|s
     Append a suffix to the image file name?:Yes
     Text to append to the image name:_obj_cell_filtr_area_int_MRK_TAR_child_mito
     Saved file format:tif
-    Output file location:Default Output Folder sub-folder\x7CProcess\\\\\\\\Segmentation_Mitochondria
+    Output file location:Default Output Folder sub-folder\x7CProcess\\\\\\\\Segmentation_Mitochondrion
     Image bit depth:16-bit integer
     Overwrite existing files without warning?:Yes
     When to save:Every cycle
@@ -3802,13 +3802,21 @@ ExportToSpreadsheet:[module_num:212|svn_version:\'Unknown\'|variable_revision_nu
     Select source of sample row name:Metadata
     Select the image to use as the identifier:None
     Select the metadata to use as the identifier:None
-    Export all measurement types?:Yes
+    Export all measurement types?:No
     :Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CNumber_Object_Number,Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_MeanIntensity_TAR,Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_MeanIntensity_MRK,Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_IntegratedIntensity_TAR,Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_IntegratedIntensity_MRK,Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CAreaShape_Area,Object_Cell_Filter_Area_Intensity_MRK_TAR\x7CAreaShape_Area,Object_Cell_Filter_Area_Intensity_MRK_TAR\x7CNumber_Object_Number,Object_Cell_Filter_Area_Intensity_MRK_TAR\x7CIntensity_MeanIntensity_TAR,Object_Cell_Filter_Area_Intensity_MRK_TAR\x7CIntensity_MeanIntensity_MRK,Object_Cell_Filter_Area_Intensity_MRK_TAR\x7CIntensity_IntegratedIntensity_TAR,Object_Cell_Filter_Area_Intensity_MRK_TAR\x7CIntensity_IntegratedIntensity_MRK,Object_Cell_Filter_Area_Intensity_MRK_TAR\x7CCorrelation_Correlation_MRK_TAR,Image\x7CFileName_REF,Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CNumber_Object_Number,Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_IntegratedIntensity_TAR,Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_IntegratedIntensity_MRK,Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_MeanIntensity_TAR,Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CIntensity_MeanIntensity_MRK,Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion\x7CAreaShape_Area
     Representation of Nan/Inf:NaN
     Add a prefix to file names?:No
     Filename prefix\x3A:MyExpt_
     Overwrite existing files without warning?:Yes
-    Data to export:Do not use
+    Data to export:Object_Cell_Filter_Area_Intensity_MRK_TAR
     Combine these object measurements with those of the previous object?:No
-    File name:DATA.csv
-    Use the object name for the file name?:Yes
+    File name:cell_region.txt
+    Use the object name for the file name?:No
+    Data to export:Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion
+    Combine these object measurements with those of the previous object?:No
+    File name:cell_with_mito_region.txt
+    Use the object name for the file name?:No
+    Data to export:Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion
+    Combine these object measurements with those of the previous object?:Yes
+    File name:mito_region.txt
+    Use the object name for the file name?:No
