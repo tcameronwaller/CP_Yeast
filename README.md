@@ -46,7 +46,7 @@ The program pipeline processes images in multiple steps. I combined all of these
 
 ### 1) Image Extraction (Modules 1-7)
 
-Extract image information from raw files. The microscope's software saves image information in a raw format. In our case that format is Carl Zeiss Image (.czi) format. Cell Profiler uses BioFormats (http://www.openmicroscopy.org/site/products/bio-formats) to accomodate many raw image formats. The pipeline reads intensity information from the images and then saves these in TIF format with 16-bit depth in a sub-directory with name "Extraction". It saves images for separate channels in separate directories, "REF", "MRK", and "TAR", within the "Extraction" directory.
+Extract image information from raw files. The microscope's software saves image information in a raw format. In our case that format is Carl Zeiss Image (.czi) format. Cell Profiler uses [BioFormats](http://www.openmicroscopy.org/site/products/bio-formats) to accomodate many raw image formats. The pipeline reads intensity information from the images and then saves these in TIF format with 16-bit depth in a sub-directory with name "Extraction". It saves images for separate channels in separate directories, "REF", "MRK", and "TAR", within the "Extraction" directory.
 
 ### 2) Intensity Scale (Modules 8-13)
 
