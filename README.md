@@ -159,8 +159,8 @@ This analysis determines the mean of mean intensities of regions. The reason is 
   **Total Intensity of Cellular Region =** total intensity value of target channel from the table for cellular regions  
   **Total Intensity of Mitochondrial Region =** total intensity value of target channel from the table for mitochondrial regions  
   **Total Intensity of Cytosolic (Non-Mitochondrial) Region =** cellular total intensity - mitochondrial total intensity  
-  **Mean Intensity of Region (Cell, Mitochondrion, or Cytosol) =** region total intensity / region area  
-  **Mean of Mean Intensity of Region (Cell, Mitochondrion, or Cytosol) =** sum of mean intensities of region / count of regions  
+  **Mean Intensity of Region (Cellular, Mitochondrial, or Cytosolic) =** region total intensity / region area  
+  **Mean of Mean Intensity of Region (Cellular, Mitochondrial, or Cytosolic) =** sum of mean intensities of region / count of regions  
   **Standard Error =** https://en.wikipedia.org/wiki/Standard_error  
 
 ### 3) Mitochondrial Distribution
