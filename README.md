@@ -46,27 +46,27 @@ The program pipeline processes images in multiple steps. I combined all of these
 
 ### 1) Image Extraction (Modules 1-7)
 
-Extract image information from raw files. The microscope's software saves image information in a raw format. In our case that format is Carl Zeiss Image (.czi) format. Cell Profiler uses [BioFormats](http://www.openmicroscopy.org/site/products/bio-formats) to accomodate many raw image formats. The pipeline reads intensity information from the images and then saves these in TIF format with 16-bit depth in a sub-directory with name "Extraction". It saves images for separate channels in separate directories, "REF", "MRK", and "TAR", within the "Extraction" directory.
+Extract image information from raw files. The microscope's software saves image information in a raw format. In our case that format is Carl Zeiss Image (.czi) format. Cell Profiler uses [BioFormats](http://www.openmicroscopy.org/site/products/bio-formats) to accomodate many raw image formats. The pipeline reads intensity information from the images and then saves these in TIF format with 16-bit depth in a sub-directory with name **_"Extraction"_**. It saves images for separate channels in separate directories, **_"REF"_**, **_"MRK"_**, and **_"TAR"_**, within the **_"Extraction"_** directory.
 
 ### 2) Intensity Scale (Modules 8-13)
 
-Rescale intensities of images to fit the bit-depth of the new format. I set the program to convert image information from the raw format to tiff with a 16-bit depth. Rescaling can improve the visibility of signal in images. Otherwise it can be too dark to see. It is very important not to rescale the intensity of individual images if you want to quantify the actual intensity and compare it between images in a batch. I designed the program to use both images with rescaled intensity (for visibility) and with original intensity (for quantification). The pipeline saves these images in TIF format with 16-bit depth in a sub-directory with name "Extraction". It saves images for separate channels in separate directories, "REF_Scale", "MRK_Scale", and "TAR_Scale", within the "Extraction" directory.
+Rescale intensities of images to fit the bit-depth of the new format. I set the program to convert image information from the raw format to tiff with a 16-bit depth. Rescaling can improve the visibility of signal in images. Otherwise it can be too dark to see. It is very important not to rescale the intensity of individual images if you want to quantify the actual intensity and compare it between images in a batch. I designed the program to use both images with rescaled intensity (for visibility) and with original intensity (for quantification). The pipeline saves these images in TIF format with 16-bit depth in a sub-directory with name "Extraction". It saves images for separate channels in separate directories, **_"REF_Scale"_**, **_"MRK_Scale"_**, and **_"TAR_Scale"_**, within the **_"Extraction"_** directory.
 
 ### 3) Region Segmentation, Cell (Modules 14-188)
 
-The pipeline segments images in the REF channel to identify or recognize regions of interest corresponding to cells. The pipeline saves images with outlines of these cellular regions for quality control as well as the regions themselves. It saves these in a sub-directory with name "Segmentation_Cell".
+The pipeline segments images in the REF channel to identify or recognize regions of interest corresponding to cells. The pipeline saves images with outlines of these cellular regions for quality control as well as the regions themselves. It saves these in a sub-directory with name **_"Segmentation_Cell"_**.
 
 ### 4) Region Segmentation, Mitochondrion (Modules 189-208)
 
-The pipeline segments images in the MRK channel to identify or recognize regions of interest corresponding to mitochondria. The pipeline associates these mitochondrial regions with the cellular regions that contain them. The pipeline saves images with outlines of these mitochondrial regions for quality control as well as the regions themselves. It saves these in a sub-directory with name "Segmentation_Mitochondrion".
+The pipeline segments images in the MRK channel to identify or recognize regions of interest corresponding to mitochondria. The pipeline associates these mitochondrial regions with the cellular regions that contain them. The pipeline saves images with outlines of these mitochondrial regions for quality control as well as the regions themselves. It saves these in a sub-directory with name **_"Segmentation_Mitochondrion"_**.
 
 ### 5) Measurement (Modules 209-211)
 
-The pipeline measures the areas of regions of interest and the intensities of fluorescent channels within those regions. The pipeline also measures the pixel-by-pixel correlation of intensities in both fluorescent channels (MRK, TAR) within cellular regions.
+The pipeline measures the areas of regions of interest and the intensities of fluorescent channels within those regions. The pipeline also measures the pixel-by-pixel correlation of intensities in both fluorescent channels (**_MRK_**, **_TAR_**) within cellular regions.
 
 ### 6) Export (Module 212)
 
-The pipeline exports measurements for several regions of interest in multiple separate tables.
+The pipeline exports measurements for several regions of interest in multiple separate tables. It saves these in a sub-directory with name **_"Measurement"_**.
 
 ----------
 
