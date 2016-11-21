@@ -72,11 +72,11 @@ The pipeline exports measurements for several regions of interest in multiple se
 
 ## Process Instructions
 
-It is necessary for the user to set the default directories, _"Default Input Folder"_ and _"Default Output Folder"_ in CellProfiler (File Menu, Preferences) before running the pipeline. The pipeline will create multiple sub-directories within this master directory.
+It is necessary for the user to set the default directories, **_"Default Input Folder"_** and **_"Default Output Folder"_** in CellProfiler (File Menu, Preferences) before running the pipeline. The pipeline will create multiple sub-directories within this master directory.
 
-It is necessary for the user to load a set of images. It is helpful for the directories or file names for images to convey the experiment and experimental group of each image. An informative file name might follow the pattern _"[experiment]_[group]_[replicate].czi"_ such as _"vms1_hypoxia_5.czi"_.
+It is necessary for the user to load a set of images. It is helpful for the directories or file names for images to convey the experiment and experimental group of each image. An informative file name might follow the pattern **_"[experiment]_[group]_[replicate].czi"_** such as **_"vms1_hypoxia_5.czi"_**.
 
-It is also necessary for the user to identify appropriate channels for the Refraction (REF), Marker (MRK), and Target (TAR) channels.
+It is also necessary for the user to identify appropriate channels for the **_Refraction (REF)_**, **_Marker (MRK)_**, and **_Target (TAR)_** channels.
 
 ----------
 
@@ -94,7 +94,7 @@ The pipeline names cellular regions **_"Object_Cell_Filter_Area_Intensity_MRK_TA
    **ObjectNumber:** The sequential number of the region of interest within a specific image.  
    **Metadata_FileLocation:** The directory path and file name of the original image.  
    **AreaShape_Area:** The area, in pixels, of the region of interest, in this case cellular regions.  
-   **Correlation_Correlation_MRK_TAR:** The pixel-by-pixel correlation between intensities of the MRK and TAR channels within cellular regions.  
+   **Correlation_Correlation_MRK_TAR:** The pixel-by-pixel correlation between intensities of the **_MRK_** and **_TAR_** channels within cellular regions.  
    **Intensity_IntegratedIntensity_MRK:** The total intensity, or sum of intensities in the **_MRK_** channel for all pixels within cellular regions.  
    **Intensity_IntegratedIntensity_TAR:** The total intensity, or sum of intensities in the **_TAR_** channel for all pixels within cellular regions.  
    **Intensity_MeanIntensity_MRK:** The mean intensity, or total intensity of the **_MRK_** channel divided by the number of pixels within cellular regions.  
@@ -102,7 +102,7 @@ The pipeline names cellular regions **_"Object_Cell_Filter_Area_Intensity_MRK_TA
 
 ### 2) Cellular Regions With Mitochondria
 
-The pipeline names cellular regions with mitochondria **_"Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion"_**. Measurements corresponding to these cellular regions are in table **_"cell_with_mito_region.txt"_**. Here is a description of relevant information in this table.
+The pipeline names cellular regions with mitochondria **_"Object_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion"_**. Measurements corresponding to these cellular regions are in table **_"cell_with_mito_region.txt"_**. In this table, a super header indicates the columns with values that correspond to these regions. Here is a description of relevant information in this table.
 
    **ImageNumber:** The sequential number of the image in the original set of images.  
    **ObjectNumber:** The sequential number of the region of interest within a specific image.  
@@ -115,7 +115,7 @@ The pipeline names cellular regions with mitochondria **_"Object_Cell_Filter_Are
 
 ### 3) Mitochondrial Regions
 
-The pipeline names mitochondrial regions **_"Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion"_**. Measurements corresponding to these mitochondrial regions are in table **_"cell_with_mito_region.txt"_**. Here is a description of relevant information in this table.
+The pipeline names mitochondrial regions **_"Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion"_**. Measurements corresponding to these mitochondrial regions are in table **_"cell_with_mito_region.txt"_**. In this table, a super header indicates the columns with values that correspond to these regions. Here is a description of relevant information in this table.
 
   **ImageNumber:** The sequential number of the image in the original set of images.  
   **ObjectNumber:** The sequential number of the region of interest within a specific image.  
