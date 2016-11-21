@@ -115,7 +115,7 @@ The pipeline names cellular regions with mitochondria **_"Object_Cell_Filter_Are
 
 ### 3) Mitochondrial Regions
 
-The pipeline names mitochondrial regions **_"Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion"_**. Measurements corresponding to these mitochondrial regions are in table **_"mito_region.txt"_**. Here is a description of relevant information in this table.
+The pipeline names mitochondrial regions **_"Object_Mitochondrion_Cell_Filter_Area_Intensity_MRK_TAR_Children_Mitochondrion"_**. Measurements corresponding to these mitochondrial regions are in table **_"cell_with_mito_region.txt"_**. Here is a description of relevant information in this table.
 
   **ImageNumber:** The sequential number of the image in the original set of images.  
   **ObjectNumber:** The sequential number of the region of interest within a specific image.  
